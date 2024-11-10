@@ -1,5 +1,8 @@
 # S&P 500 Financial Forecasting with LSTM
 
+![image](https://github.com/user-attachments/assets/e991057f-a706-4aa4-8355-00af2d0632d7)
+
+
 In this project, I use a Long Short-Term Memory (LSTM) neural network to predict S&P 500 stock prices based on historical data. The workflow includes data preprocessing, feature engineering, sequence creation for model input, and training an LSTM to make predictions on future prices.
 
 ### 1. Data Loading and Preprocessing

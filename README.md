@@ -19,7 +19,7 @@ This feature engineering step significantly enhances the dataset, allowing the m
 I prepare sequences from the last 60 days’ data to predict the next day’s price. This step converts the data into a series of sequences, which are then transformed into PyTorch tensors for use in the LSTM model.
 
 ### 4. Model Training and Results
-I define an LSTM model with one hidden layer and a fully connected output layer. Using a Mean Squared Error (MSE) loss function and an Adam optimizer, I train the model on GPU (if available) for 100 epochs. Here are the training results and model accuracy:
+I define an LSTM model with one hidden layer and a fully connected output layer. Using a Mean Squared Error (MSE) loss function and an Adam optimizer, I train the model on GPU (two NVIDIA T4 Tensor Core GPUs) for 100 epochs. Here are the training results and model accuracy:
 
 - **Initial Loss**: 10.3%
 - **Loss after 10 Epochs**: 4.1%

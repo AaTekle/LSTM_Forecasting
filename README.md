@@ -33,9 +33,3 @@ This project utilizes a Long Short-Term Memory (LSTM) neural network to forecast
 
 ### Dependencies
 - Python libraries: `pandas`, `numpy`, `torch`, `scikit-learn`, `matplotlib`
-
-### Usage
-1. Execute the code sequentially in a compatible environment (e.g., Kaggle, Colab).
-2. After training, visualize the predictions compared to actual closing prices for the forecasted period.
-
-This project demonstrates a simple LSTM-based approach to time-series forecasting for financial data.

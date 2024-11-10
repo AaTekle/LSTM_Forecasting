@@ -2,8 +2,6 @@
 
 In this project, I use a Long Short-Term Memory (LSTM) neural network to predict S&P 500 stock prices based on historical data. The workflow includes data preprocessing, feature engineering, sequence creation for model input, and training an LSTM to make predictions on future prices.
 
-## Project Steps and Results
-
 ### 1. Data Loading and Preprocessing
 I begin by loading the S&P 500 dataset, focusing on the last 15,000 entries. After handling any NaN and infinite values, I convert the `date` column to datetime format. I scale the closing prices between 0 and 1 to standardize the data for training.
 

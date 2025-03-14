@@ -6,7 +6,7 @@ I built a Long Short-Term Memory (LSTM) model to forecast S&P 500 stock prices u
 I started by importing the S&P 500 dataset and filtering it down to the most recent 15,000 records. I cleaned any NaN or infinite values and converted the `date` column into datetime format. To standardize the price data, I scaled the closing prices between 0 and 1.
 
 ### 2. Feature Engineering
-I created new characteristics within the dataset using several new additional features:
+I created new characteristics within the dataset:
 - **Price Change**: Computed the percentage difference between opening and closing prices.
 - **Technical Indicators**: Added RSI, MACD, and Bollinger Bands.
 - **Moving Averages**: Included both short-term (5-day) and medium-term (20-day) moving averages.

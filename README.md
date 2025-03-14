@@ -15,7 +15,7 @@ I created new characteristics within the dataset:
 These enhancements helped the model capture a broader range of market behavior.
 
 ### 3. Sequence Preparation
-Next, I formed sequences from the prior 60 days to predict the subsequent day’s price. After creating these sequences, I converted them into PyTorch tensors, making them ready for ingestion by the LSTM model.
+I then formed sequences from the prior 60 days to predict the subsequent day’s price. After creating these sequences, I converted them into PyTorch tensors, making them ready for ingestion by the LSTM model.
 
 ### 4. Model Training and Results
 I configured an LSTM network with a single hidden layer and a fully connected output layer. I used MSE (Mean Squared Error) as the loss function and Adam as the optimizer. Training took place on two NVIDIA T4 Tensor Core GPUs over 100 epochs, showing improvements:
